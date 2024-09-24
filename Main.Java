@@ -26,9 +26,9 @@ public class Main {
     public static void Alchemy()
     {
         System.out.println("================================");
-        System.out.println("1. Streght");
-        System.out.println("2. Training");
-        System.out.println("3. Breakthrough");
+        System.out.println("1. Yuan Pill");
+        System.out.println("2. Blood Pill");
+        System.out.println("3. Nine Yin Cloud Pill");
         System.out.println("0. Exit");
         System.out.println("================================");
         System.out.print(">> ");
@@ -56,6 +56,13 @@ public class Main {
     
     public static void main(String[] args) {
         
+        System.out.println("You Killed by your friend in the past , Now u have 1 mission , REVENGE");
+        System.out.println("U got Reincarnated");
+        System.out.print("Insert Ur Name : ");
+
+
+
+
         boolean Loop = true;
         while (Loop) {
             Menu();
