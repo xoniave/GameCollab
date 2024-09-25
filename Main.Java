@@ -43,6 +43,7 @@ public class Main {
     public static void Menu()
     {
         System.out.println("================================");
+        System.out.println("Name : " + Sistem.PLAYER.getNama() + " (" + Sistem.PLAYER.getRealm() + ")");
         System.out.println("1. Activity");
         System.out.println("2. Adventure");
         System.out.println("3. Alchemy");
@@ -59,9 +60,7 @@ public class Main {
         System.out.println("You Killed by your friend in the past , Now u have 1 mission , REVENGE");
         System.out.println("U got Reincarnated");
         System.out.print("Insert Ur Name : ");
-
-
-
+        Sistem.PLAYER.setNama(Sistem.scanstr.nextLine());
 
         boolean Loop = true;
         while (Loop) {
@@ -120,7 +119,10 @@ public class Main {
                                 break;
                             case 2:
                                 break;
+                            case 3:
+                                break;
                             case 0:
+                                AlchemyLOOP = false;
                                 break;
                             default:
                                 break;
